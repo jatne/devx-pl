@@ -31,6 +31,9 @@ body {
   color: var(--text);
   height: 100vh;
   align-items: center;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  overflow:hidden;
 }
 
 body,
@@ -44,6 +47,7 @@ main {
   text-align: center;
   flex-direction: column;
   padding: 1rem;
+  font-size: 18px;
 
   &::before {
     content: '<';
@@ -62,10 +66,15 @@ main {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    font-size: 2.125em;
   }
 }
 
 a {
   color: var(--link);
   text-decoration: none;
+}
+
+h1 {
+  font-size: 2em;
 }

@@ -22,12 +22,5 @@
     "@parcel/transformer-postcss": "^2.0.0-alpha.3",
     "parcel": "^2.0.0-beta.1",
     "sass": "^1.32.7"
-  },
-    "parcel": {
-    "transforms": {
-      "*.html": [
-        "parcel-transformer-google-fonts"
-      ]
-    }
   }
 }
